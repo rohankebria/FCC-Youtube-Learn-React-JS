@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>  
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>  
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  
+  <body>  
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      class Hello1 extends React.Component {
+        render() {
+          return <h1>Hello World...!</h1>
+        }
+      }
+
+      ReactDOM.render(<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		</ul>, document.getElementById('mydiv')); // uses Hello1 component to update DOM
+    </script>
+	
+  </body>
+</html>
