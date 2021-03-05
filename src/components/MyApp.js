@@ -16,7 +16,9 @@ function MyApp() {
       {((styleMy.color = "yellow"), console.log(styleMy))}
       <h4 style={{ styleMy }}>acess and change style object</h4>
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></input>
-      <label for="vehicle1"> I have a bike</label>
+      <label className="navbar" for="vehicle1">
+        I have a bike
+      </label>
       <br></br>
       <input type="checkbox" id="vehicle2" name="vehicle2" value="car"></input>
       <label for="vehicle2"> I have a car</label>
