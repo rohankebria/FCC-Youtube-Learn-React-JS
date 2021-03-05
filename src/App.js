@@ -1,15 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import MyApp from "./MyApp";
 
 function App() {
-  return (
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-    </ul>
-  );
+  return <MyApp />;
 }
 
 export default App;
